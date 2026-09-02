@@ -29,25 +29,25 @@ Creamos la base de datos con todas sus tablas y relaciones.
 Como podemos ver al archivo tiene mas de 9000 lineas y ni hablar de la cantidad de relaciones.
 
 
-# consultas:
+# Consultas:
 
 ## 1) Listar profesores con su departamento. 
 
 <img width="1618" height="914" alt="consulta 1" src="https://github.com/user-attachments/assets/df2ec4a7-a918-49d2-b828-d1342843c18a" />
 
-[Ver codigo SQL](./consultas/Consulta_1.sql)
+[Ver codigo SQL](./Consultas/Consulta_1.sql)
 
 ## 2) Mostrar estudiantes y las materias en las que están inscriptos.
 
 <img width="1920" height="1024" alt="Consulta 2" src="https://github.com/user-attachments/assets/8644ddef-0a92-406a-b55d-e050058dabb8" />
 
-[Ver codigo SQL](./consultas/Consulta_2.sql)
+[Ver codigo SQL](./Consultas/Consulta_2.sql)
 
 ## 3)Listar profesores y las materias que dictan. 
 
 <img width="1920" height="1037" alt="Consulta 3" src="https://github.com/user-attachments/assets/f85ed42a-da13-43df-a266-512ae2b76889" />
 
-[Ver codigo SQL](./consultas/Consulta_3.sql)
+[Ver codigo SQL](./Consultas/Consulta_3.sql)
 
 ##  4) Mostrar estudiantes con nota/resultados en cada materia.
 
@@ -58,13 +58,13 @@ Ademas puse un par de as para que se vean mas lindos los resultados.
 
 <img width="1920" height="1032" alt="Consulta 4" src="https://github.com/user-attachments/assets/2e3a66a5-f64c-4769-8bc4-acfcd2e35a2b" />
 
-[Ver codigo SQL](./consultas/Consulta_4.sql)
+[Ver codigo SQL](./Consultas/Consulta_4.sql)
 
 ## 5) Mostrar cantidad de materias por estudiante 
 
 <img width="1920" height="1044" alt="Consulta 5" src="https://github.com/user-attachments/assets/51812da5-3523-4330-a6de-a96531980a84" />
 
-[Ver codigo SQL](./consultas/Consulta_5.sql)
+[Ver codigo SQL](./Consultas/Consulta_5.sql)
 
 ## 6) Mostrar cantidad de estudiantes por materia 
 
@@ -74,13 +74,13 @@ En este no estaba seguro si tenia que mostrar, las que estan cursando en este mo
 
 <img width="1920" height="1049" alt="Consulta 6 1" src="https://github.com/user-attachments/assets/ccbbbe72-6bc8-487d-8e5f-8b0d0b4d2455" />
 
-[Ver codigo SQL](./consultas/Consulta_6-1.sql)
+[Ver codigo SQL](./Consultas/Consulta_6-1.sql)
 
 6.2) Estas son cantidad de alumnos que curaron cada materia, sin tener en cuenta los que la estan cursando:
 
 <img width="1920" height="1040" alt="Consulta 6 2" src="https://github.com/user-attachments/assets/6e29833d-4d48-46e0-8762-a278c376c95e" />
 
-[Ver codigo SQL](./consultas/Consulta_6-2.sql)
+[Ver codigo SQL](./Consultas/Consulta_6-2.sql)
 
 ## 7) Historial de inscripciones de UN estudiante puntual (con año)
 
@@ -88,11 +88,11 @@ Para esta consulta primero hice una búsqueda auxiliar para elegir un alumno que
 
 <img width="1920" height="1042" alt="auxilari_cosnulta_7" src="https://github.com/user-attachments/assets/eb5b6c87-0d86-49f2-adb6-26198f6f37fb" />
 
-[Ver codigo SQL](./consultas/Conuslta_6-2.sql)
+[Ver codigo SQL](./Consultas/Conuslta_6-2.sql)
 
 Ahora si la consulta:
 
 <img width="1920" height="853" alt="consulta 7" src="https://github.com/user-attachments/assets/d667c5ef-d883-48e1-9c6c-f947bc04ebb1" />
 
-[Ver codigo SQL](./consultas/Consulta_7.sql)
+[Ver codigo SQL](./Consultas/Consulta_7.sql)
 
