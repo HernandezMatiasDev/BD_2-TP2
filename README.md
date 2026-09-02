@@ -16,15 +16,28 @@ Este es el DER en el cual se baso la base de datos:
 
 <img width="1920" height="1039" alt="Create DataBase" src="https://github.com/user-attachments/assets/f94573c4-ce80-4d24-bf63-9daba1fd7976" />
 
+[Ver codigo SQL](./Consultas/Create_Database.sql)
+
 Creamos la base de datos con todas sus tablas y relaciones.
 
 ## hacemos un INSERT inicial para mostrar como se hace:
 
 <img width="1920" height="1037" alt="first INSERT" src="https://github.com/user-attachments/assets/f2fb558c-0e4b-40bd-888c-a7b25284e436" />
 
+[Ver codigo SQL](./Consultas/first_INSERT.sql)
+
+Igual despues de este paso hice:
+
+```sql
+"DROP DATABASE facultad"
+```
+Despues la cree nuevamente, esto para evitar cualquier error con la carga masiva.
+
 ## Ahora le pedimos a la ia que nos haga un archivo de "carga masiva" para que sea mas interesante hacer las busquedas.
 
 <img width="528" height="705" alt="carga_masiva" src="https://github.com/user-attachments/assets/17a32ca5-c95b-4f9d-a1a7-3ec9ff9ffa24" />
+
+[Ver codigo SQL](./Consultas/carga_masiva.sql)
 
 Como podemos ver al archivo tiene mas de 9000 lineas y ni hablar de la cantidad de relaciones.
 
@@ -51,10 +64,9 @@ Como podemos ver al archivo tiene mas de 9000 lineas y ni hablar de la cantidad 
 
 ##  4) Mostrar estudiantes con nota/resultados en cada materia.
 
-Puse el WHERE nota IS NOT NULL para que no muestre las "notas" de las materias que se estan cursando en este momento, ya que estas aun no tienen nota.
+Agregue el WHERE nota IS NOT NULL para que no muestre las "notas" de las materias que se estan cursando en este momento, ya que estas aun no tienen nota.
 
-Ademas puse un par de as para que se vean mas lindos los resultados.
-
+Ademas Agregue "as" para que se vean mas lindos los resultados.
 
 <img width="1920" height="1032" alt="Consulta 4" src="https://github.com/user-attachments/assets/2e3a66a5-f64c-4769-8bc4-acfcd2e35a2b" />
 
